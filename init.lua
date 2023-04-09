@@ -46,4 +46,6 @@ kmap('n','bL', ':set background=light<cr>')
 kmap('n','<leader>D', ':Gdiff<cr>')
 kmap('n','<leader>B', ':G blame<cr>')
 kmap('n','<leader>gf', ':edit %:h/<cfile><CR>')
- 
+kmap('v','<leader>y','"+y')
+kmap('n','<leader>p','"+p')
+
